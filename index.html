@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+    <script src="https://kit.fontawesome.com/86afc85f50.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+<script src="index.js" defer></script>
+</head>
+<body>
+    <div class="background">
+        <img src="https://images.wallpapersden.com/image/download/lightning-at-night-hd_bGlpamiUmZqaraWkpJRnamtlrWZpaWU.jpg" alt="">
+    </div>
+    <div class="container">
+        <div class="search">
+            <input onfocus="this.value=''" class="search-bar" type="text" placeholder="Enter city name">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in Pune</h2>
+            <img class="icon" src="https://openweathermap.org/img/w/10d.png" alt="">
+            <div class="temp">25°C</div>
+            <div class="description">Cloudy</div>
+            <div class="humidity">Humidity: 50%</div>
+            <div class="wind">Wind Speed: 5km/h</div>
+        </div>
+    </div>
+    
+</body>
+</html>
